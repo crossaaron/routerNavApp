@@ -2,6 +2,10 @@ import React, { Component} from 'react'
 
 
 export default class Contact extends Component {
+    componentDidMount() {
+        document.body.style.backgroundColor = 'green'
+    }
+
     render() {
         return (
             <div>
